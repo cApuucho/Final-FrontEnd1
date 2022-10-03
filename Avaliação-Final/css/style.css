@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+#nav-bar {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(53, 58, 102);
+}
+.sobre {
+  position: fixed;
+  left: 13%;
+  top: 62%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.conhecimentos {
+  position: absolute;
+  left: 10%;
+  top: 69%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.objetivos {
+  position: absolute;
+  left: 11.5%;
+  top: 76%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.circle-image {
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 13vw;
+  height: 13vw;
+  top: 30%;
+  left: 9%;
+  border: 2px solid white;
+}
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#container {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  float: right;
+}
+
+.texto {
+  font-size: 20px;
+  position: absolute;
+  left: 33%;
+  top: 25%;
+}
+
+.letra-cor {
+  text-decoration: none;
+  color: rgb(245, 118, 71);
+}
+
+.tel {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.icon-linkedin {
+  text-decoration: none;
+  left: 34%;
+  top: 81%;
+  position: absolute;
+  width: 55px;
+}
+.icon-github {
+  left: 39%;
+  top: 81.7%;
+  position: absolute;
+  width: 46px;
+}
+.icon-twitter {
+  left: 43.7%;
+  top: 81.7%;
+  position: absolute;
+  width: 46px;
+}
+.icon-facebook {
+  left: 48.5%;
+  top: 81.7%;
+  position: absolute;
+  width: 46px;
+}
+
+.icon-instagram {
+  left: 53%;
+  top: 81.7%;
+  position: absolute;
+  width: 46px;
+}
+
+h2 {
+  font-size: 3em;
+  position: absolute;
+  left: 32%;
+  top: 30%;
+}
+.texto2 {
+  font-size: 20px;
+  position: absolute;
+  left: 36%;
+  top: 45%;
+}
+
+a {
+  color: rgb(143, 141, 141);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(143, 141, 141);
+}
+
+a:active {
+  color: rgb(143, 141, 141);
+}

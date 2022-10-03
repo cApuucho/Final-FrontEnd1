@@ -1,0 +1,342 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação Final - FrontEnd 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <aside>
+      <nav class="navbar">
+        <div class="nav-bar">
+          <span class="circle-image">
+            <img src="./images/Imagens.jpeg" alt="foto de perfil">
+          </span>
+          <div class="block">
+            <a href="#" class="sobre">Sobre</a>
+            <br>
+            <a href="/conhecimentos.html" class="conhecimento">Conhecimentos</a>
+            <br>
+            <a href="/objetivos.html" class="objetivo">Objetivos</a>
+          </div>
+        </div>
+      </nav>
+    </aside>
+  </header>
+
+  <main style="top: 180px; left: 370px;">
+    <section>
+      <div>
+        <h1>RAFAEL <span class="letra-cor">CAPUCHO</span></h1>
+        <p>🗺️ AVENIDA NESRALLA RUBEZ, 300, CRUZEIRO - SP <br> &#9993;
+          <a href="mailto:rafaelcapucho22@gmail.com" rel="Email" class="letra-cor">rafaelcapucho22@gmail.com</a>
+          <a href="tel:+5512992278339" rel="Telefone" class="tel">
+            <br><span>&#9743; (12) 99227-8339</span></a>
+        </p>
+        <br>
+        <p>Sou apaixonado por videogames, natureza e tecnologias no geral.<br> Dentre minhas características
+          destacam-se a proatividade, empatia e responsabilidade.<br>
+          Escolhi a programação pelas infinitas possibilidades que ela pode me proporcionar e onde posso chegar.<br>
+          Além do fato de estar totalmente determinado a trabalhar como desenvolvedor,<br> fico contente com o que a
+          área
+          pode me oferecer,
+          como por
+          exemplo, trabalhar de qualquer lugar do mundo,<br> algo que sempre despertou meu interesse.<br> Continuarei
+          buscando
+          conhecimentos para ingressar na área e desenvolver minha carreira.</p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <p>
+          <a href="https://www.linkedin.com/in/capuucho/" target="_blank"> <img src="./images/linkedin.png"
+              alt="linkedin" class="icon-linkedin"></a></img>
+          <a href="https://github.com/cApuucho" target="_blank"><img src="./images/github.png" alt="github"
+              class="icon-github"></img></a>
+
+          <a href="https://twitter.com/cApuucho1" target="_blank"><img src="./images/twitter.png" alt="twitter"
+              class="icon-twitter"></img></a>
+
+          <a href="https://facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"
+              class="icon-facebook"></img></a>
+
+        </p>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
+
+conhecimentos.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação Final - FrontEnd 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <aside>
+
+      <nav class="navbar">
+        <div class="nav-bar">
+          <span class="circle-image">
+            <img src="./images/Imagens.jpeg" alt="">
+          </span>
+          <div class="container">
+            <a href="/index.html" class="sobre">Sobre</a>
+            <br>
+            <a href="#" class="conhecimento">Conhecimentos</a>
+            <br>
+            <a href="/objetivos.html" class="objetivo">Objetivos</a>
+          </div>
+        </div>
+      </nav>
+    </aside>
+  </header>
+
+  <main>
+    <section>
+
+      <h2>Conhecimentos:</h2>
+      <div>
+        <ol type="a">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>ReactJS</li>
+          <li>NodeJS</li>
+          <li>TypeScript</li>
+          <li>Git e GitHub</li>
+
+        </ol>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>
+
+objetivos.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação Final - FrontEnd 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <aside>
+
+      <nav class="navbar">
+        <div class="nav-bar">
+          <span class="circle-image">
+            <img src="./images/Imagens.jpeg" alt="">
+          </span>
+          <div class="container">
+            <a href="/index.html" class="sobre">Sobre</a>
+            <br>
+            <a href="/conhecimentos.html" class="conhecimento">Conhecimentos</a>
+            <br>
+            <a href="#" class="objetivo">Objetivos</a>
+          </div>
+        </div>
+      </nav>
+    </aside>
+  </header>
+
+  <main>
+    <section>
+      <h2>Objetivos:</h2>
+      <div>
+        <ul>
+          <li>
+            Construir hábitos melhores para estar em desenvolvimento <br>
+            constante e sempre estudando para se aperfeiçoar <br>cada vez mais.
+          </li><br>
+          <li>Sempre estar em constante crescimento nas minhas soft skills.</li><br>
+          <li>Construir uma carreia sólida na área<br> da programação.</li><br>
+          <li>Conseguir meu primeiro emprego na área.</li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>
+
+style.css
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(223, 218, 218);
+  overflow: hidden;
+}
+
+.nav-bar {
+  position: relative;
+  background-color: rgb(53, 58, 102);
+  width: 50vh;
+  height: 100vh;
+}
+
+.block {
+  text-transform: uppercase;
+  position: fixed;
+  left: 6vw;
+  top: 65vh;
+  text-align: center;
+}
+
+.circle-image {
+  position: absolute;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  top: 30vh;
+  left: 4vw;
+}
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sobre {
+  top: 2vh;
+  left: 3vw;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  font-size: 32px;
+  position: absolute;
+  left: 350px;
+  top: 250px;
+}
+
+.letra-cor {
+  text-decoration: none;
+  color: rgb(245, 118, 71);
+}
+
+p {
+  font-size: 16px;
+}
+
+.conhecimento {
+  left: 0;
+  position: absolute;
+  top: 8vh;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.objetivo {
+  position: absolute;
+  left: 1.5vw;
+  top: 14vh;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+p a {
+  font-size: 18px;
+}
+
+.icon-linkedin {
+  text-decoration: none;
+  left: 10px;
+  top: 50px;
+  position: relative;
+  width: 55px;
+}
+.icon-github {
+  left: 30px;
+  top: 45px;
+  position: relative;
+  width: 46px;
+}
+.icon-twitter {
+  left: 50px;
+  top: 48px;
+  position: relative;
+  width: 46px;
+}
+.icon-facebook {
+  left: 70px;
+  top: 47px;
+  position: relative;
+  width: 46px;
+}
+
+h2 {
+  bottom: 25vh;
+  position: relative;
+}
+
+ol {
+  left: 10vh;
+  bottom: 15vh;
+  position: relative;
+}
+
+ul {
+  left: 10vh;
+  bottom: 20vh;
+  position: relative;
+}
+.tel {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+section p {
+  font-family: 'Courier New', Courier, monospace;
+}
